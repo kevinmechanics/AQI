@@ -149,7 +149,7 @@ void loop() {
     rgbColor(0, 255, 0); //green
     stat = "Good";
   }
-  else if (mqtVal >= 15 && mqtVal <= 100) {
+  else if (mqtVal >= 51 && mqtVal <= 100) {
     rgbColor(255, 255, 0); //yellow
     stat = "Moderate";
   }
